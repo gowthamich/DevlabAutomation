@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BVT Dev" duration-ms="106006" started-at="2021-03-12T20:56:20 IST" finished-at="2021-03-12T20:58:06 IST">
+    <groups>
+    </groups>
+    <test name="BVT" duration-ms="106006" started-at="2021-03-12T20:56:20 IST" finished-at="2021-03-12T20:58:06 IST">
+      <class name="TestScripts.Gamification">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestScripts.Gamification@77e9807f]" name="setUp" is-config="true" duration-ms="302" started-at="2021-03-12T20:56:20 IST" finished-at="2021-03-12T20:56:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="btest()[pri:0, instance:TestScripts.Gamification@77e9807f]" name="btest" is-config="true" duration-ms="78" started-at="2021-03-12T20:56:20 IST" finished-at="2021-03-12T20:56:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method status="PASS" signature="bmethod()[pri:0, instance:TestScripts.Gamification@77e9807f]" name="bmethod" is-config="true" duration-ms="6933" started-at="2021-03-12T20:56:20 IST" finished-at="2021-03-12T20:56:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method status="PASS" signature="enableGamificationConfig()[pri:0, instance:TestScripts.Gamification@77e9807f]" name="enableGamificationConfig" duration-ms="97581" started-at="2021-03-12T20:56:27 IST" finished-at="2021-03-12T20:58:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableGamificationConfig -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScripts.Gamification@77e9807f]" name="tearDown" is-config="true" duration-ms="1369" started-at="2021-03-12T20:58:05 IST" finished-at="2021-03-12T20:58:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enableGamificationConfig status=SUCCESS method=Gamification.enableGamificationConfig()[pri:0, instance:TestScripts.Gamification@77e9807f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afSuite()[pri:0, instance:TestScripts.Gamification@77e9807f]" name="afSuite" is-config="true" duration-ms="461" started-at="2021-03-12T20:58:06 IST" finished-at="2021-03-12T20:58:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afSuite -->
+      </class> <!-- TestScripts.Gamification -->
+    </test> <!-- BVT -->
+  </suite> <!-- BVT Dev -->
+</testng-results>
