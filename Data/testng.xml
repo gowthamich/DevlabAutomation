@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><suite name="BVT Dev" parallel="methods" thread-count="2"><test name="BVT"><classes><class name="TestScripts.TCNG"><methods><include name="reporting"/></methods></class></classes></test></suite>
